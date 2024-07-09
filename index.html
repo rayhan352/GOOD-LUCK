@@ -64,17 +64,42 @@
 
 
     <h2>YouTube Video</h2>
-    <a href="https://youtu.be/pw9AGVE3BU4?si=F5LmQnD4ghRXDAEA ">NADIR ON THE GO</a><br>
-    <a href="https://youtu.be/jwYaIezrhxY?si=VJmNcl7KacKlDOsS">Abu Tawhaa Muhammad Adnan.
-    </a>
+    <p id="item">
+        <a href="https://youtu.be/pw9AGVE3BU4?si=F5LmQnD4ghRXDAEA ">NADIR ON THE GO</a><br>
+        <a href="https://youtu.be/jwYaIezrhxY?si=VJmNcl7KacKlDOsS">Abu Tawhaa Muhammad Adnan.</a>
+    </p>
     <br><br>
 
 
 
     <!-- <button disabled="disabled">GOOD</button> -->
-    <BUtton class="me">Clack Me
+    <BUtton class="me" id="btn">Clack Me
 
     </BUtton>
+
+    <script>
+        // var button = document.getElementById("btn");
+        // var items = document.getElementById("item");
+
+        // button.onclick = clickButton;
+
+        // function clickButton() {
+
+        //     items.style.display = 'block';
+
+        // }
+        var button = document.getElementById("btn");
+        var items = document.getElementById("item");
+
+        button.onclick = clickButton;
+
+        function clickButton() {
+            items.style.display = 'block';
+
+            // items.css = 'display: block;';
+
+        }
+    </script>
 
 </body>
 

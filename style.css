@@ -18,6 +18,10 @@
 
 
  }
+ #item{
+    display: none;
+    /* display: block; */
+ }
 
  .images {
      width: 500px;
